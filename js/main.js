@@ -25,7 +25,7 @@ xhttp.onreadystatechange = function () {
 
       productContent.innerHTML = `<h3>${product.title}</h3>
       <span>${product.description}</span>
-      <p>Giá: $${product.price}</p>
+      <p class="price">Giá: $${product.price}</p>
       <p>Đánh giá trung bình: ${averageRating} ⭐</p>
       `;
 
